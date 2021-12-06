@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+form{
+
+margin-left: 300px;
+
+}
+.container{
+
+margin-left: 200px;
+margin-top: 250px;
+
+}
+#eposta{
+  margin-left: 20px;
+  
+}
+#sifre{
+  margin-left: 38px;
+  margin-top: 15px;
+  
+}
+#checks{
+  margin-left: 230px;
+  margin-top: 25px;
+}
+.btn{
+  margin-left: 60px;
 }

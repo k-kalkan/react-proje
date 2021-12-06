@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+       
+
+
+    <form className="container" >
+    
+     <label id="eposta" >
+    E-Posta:
+    <input  type="text" name="name" placeholder="Lütfen E-posta giriniz." />
+    </label>
+    <br/>
+    <label id="sifre">
+    Şifre:
+    <input  type="text" name="name" placeholder="Lütfen şifrenizi giriniz." />
+    </label> 
+     </form>
+     
+     <label id="checks">
+    şifremi hatırla:    
+    <input  type="checkbox" name="name" placeholder="işaretleyin" />
+    </label>
+   
+  
+    <button  id="btn" type="button" class="btn btn-primary">◄ Gönder</button>
+
+
     </div>
+
+
+
   );
 }
 
